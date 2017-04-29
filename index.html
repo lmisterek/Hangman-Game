@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Hangman Game</title>
+
+	<meta charset="utf-8">
+	
+	<!-- Linking CSS -->
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	-->
+</head>
+
+
+
+<body>
+
+<h1> Let's Play Hangman </h1>
+
+<!--display Intro Text -->
+<h3><span id="welcome-text" ><strong>Type any key to get started! </strong></span></h3>
+
+
+
+<section id="display" class="gameDisplay">
+
+<p id="inputBox">Choose a letter:<input type="text" id="letterChoice"></p>
+
+<p id="puzzle" class="gameDisplay"></p>
+
+<p id="misses" class="gameDisplay">Letters already guessed:  <div id="wrongLetters" ></div></p>
+
+<p id="guesses">Number of guesses remaining:  <div id="guessesLeft" ></div></p>
+
+<p >Wins:  <div id="numWins" ></div></p>
+
+</section>
+
+<!--
+
+6. Wins: (# of times user guessed the word correctly).
+
+9. After the user wins/loses the game should automatically choose another word and make th e user play it.
+-->
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
